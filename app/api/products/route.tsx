@@ -31,5 +31,5 @@ export async function POST(request: NextRequest) {
       price: body.price,
     },
   });
-  return NextResponse.json(newProduct);
+  return NextResponse.json(newProduct, { status: 201 });
 }
