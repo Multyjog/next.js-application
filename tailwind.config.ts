@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      // Register custom font and use it like 'className='font-NAME'
+      // fontFamily: {
+      //   myOwnFont: 'var(--font-NAME'
+      // },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

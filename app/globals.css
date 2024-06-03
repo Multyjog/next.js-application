@@ -14,6 +14,7 @@
 
 /* body {} */
 @layer base {
+  /* Apply to every H1 elements */
   h1 {
     @apply font-extrabold text-2xl mb-3
   }
